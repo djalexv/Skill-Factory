@@ -3,7 +3,7 @@ A = [float(_) for _ in range(21)]
 mid = len(A) // 2
 low = 0
 high = len(A) - 1
-s =0
+s = 0
 Tstr = "K - Вне массива"
 EndStr = "Номер позиции элемента, который меньше K = "
 if K < A[0]:
@@ -30,5 +30,4 @@ else:
         else:
             high = mid - 1
         mid = (low + high) // 2
-# EndStr += str(s)
 print(EndStr)
